@@ -131,6 +131,88 @@
   right: 10px;
 }
 
+@media (min-width: 320px) {
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  .carousel-slide {
+    float: left;
+    width: 100%;
+  
+  }
+  .carousel-slide img {
+    width: 100%;
+    height: 150px;
+    margin-top: 110px;
+  }  
+  .home-carousel-btn {
+    position: absolute;
+    top: 70%;
+    color: white;
+    padding: 1px 7px;
+    background-color: #0dba4b;
+    border-radius: 50%;
+    border: 1px solid #0dba4b;  
+    font-size: 20px;
+  }  
+}
+
+@media (min-width: 760px) {
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  .carousel-slide {
+    float: left;
+    width: 100%;
+  
+  }
+  .carousel-slide img {
+    width: 100%;
+    height: 150px;
+    margin-top: 110px;
+  }  
+  .home-carousel-btn {
+    position: absolute;
+    top: 70%;
+    color: white;
+    padding: 1px 7px;
+    background-color: #0dba4b;
+    border-radius: 50%;
+    border: 1px solid #0dba4b;  
+    font-size: 20px;
+  }  
+}
+@media (min-width: 1020px) {
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  .carousel-slide {
+    float: left;
+    width: 100%;
+  
+  }
+  .carousel-slide img {
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+  }
+  .home-carousel-btn {
+    position: absolute;
+    top: 60%;
+    font-size: 40px;
+    color: white;
+    padding: 5px 20px;
+    background-color: #0dba4b;
+    border-radius: 50%;
+    border: 2px solid #0dba4b;
+  }
+}
 
 
 
@@ -1190,9 +1272,9 @@
   content: "";
   position: absolute;
   top: 60%;
-  left: calc(50% - 200px);
+  left: calc(50% - 170px);
   height: 2px;
-  width: 75px;
+  width: 50px;
   background-color: #7a7a7a;
 }
 
@@ -1200,12 +1282,11 @@
   content: "";
   position: absolute;
   top: 60%;
-  right: calc(50% - 200px);
+  right: calc(50% - 160px);
   height: 2px;
-  width: 75px;
+  width: 50px;
   background-color: #7a7a7a;
 }
-
 
 .contact-box {
   display: flex;
@@ -1228,18 +1309,21 @@
   align-items: center;
   display: flex;
   color: #0DBA4B;
+  margin-right: 10px;
 }
 
 .aemail {
   text-decoration-line: none;
   color: #515451;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .acon {
   text-decoration-line: none;
   color: #515451;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .contact-info {
@@ -1252,7 +1336,11 @@
   padding-bottom: 10px;
   color: #585a58;
 }
-
+.contact-p {
+  margin-left: 10px;
+  padding-bottom: 10px;
+  color: #585a58;
+}
 .contact-con {
   padding-left: 20px;
 }
